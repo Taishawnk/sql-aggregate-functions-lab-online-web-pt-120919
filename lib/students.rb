@@ -6,9 +6,11 @@ def highest_student_gpa
 end
 
 def lowest_student_gpa
+  return "Select min(gpa) From students";
 end
 
 def average_student_gpa
+  return "Select avg()"
 end
 
 def total_tardies_for_all_students
