@@ -1,7 +1,7 @@
 ## Code your solution below. Note that your SQL queries should be in quotation marks. 
 
 def highest_student_gpa
-  Select max(gpa) From students;
+ return "Select max(gpa) From students";
   
 end
 
