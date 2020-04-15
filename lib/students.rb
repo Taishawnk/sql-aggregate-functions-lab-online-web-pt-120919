@@ -2,7 +2,7 @@
 
 def highest_student_gpa
   Select max(gpa) From students
-  "
+  
 end
 
 def lowest_student_gpa
