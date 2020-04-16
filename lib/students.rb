@@ -18,5 +18,5 @@ def total_tardies_for_all_students
 end
 
 def average_gpa_for_9th_grade
-  return "Select avg(gpa) From students Where gpa = 9";
+  return "Select avg(gpa) From students gpa = 9";
 end
